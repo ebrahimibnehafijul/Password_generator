@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIST Password Generator</title>
+    <link rel="stylesheet" href="Page_desinge.CSS">
+    <Link rel="script" href="Java_script.JAVA">
+</head>
+<body>
+    <div class="container">
+        <h1>MIST Password Generator</h1>
+        <div class="options">
+            <label for="password-length">Password Length:</label>
+            <input type="number" id="password-length" min="4" max="20" value="8">
+            <select id="password-difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        <button id="generate-btn">Generate Password</button>
+        <div id="password-display"></div>
+    </div>
+    <script src="Java_script.JAVA"></script>
+</body>
+</html>
